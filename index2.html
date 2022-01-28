@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bv2.css">
+    <title>BOOKS</title>
+</head>
+
+<body>
+    <nav>
+
+        <h1>Library</h1>
+
+    </nav>
+    <header>
+
+        <h3>Add Book:</h3>
+
+        <div class="forms">
+
+            <form id="form" autocomplete="off" onsubmit="onFormSubmit()">
+                <div>
+                    <p id="Error1"></p>
+                </div>
+                <label for="title">Title:</label><br>
+                <input type="text" id="title"><br>
+
+                <div class="author">
+                    <p id="Error2"></p>
+                </div>
+                <label for="author">Author:</label><br>
+                <input type="text" id="author"><br>
+
+                <div>
+                    <p id="Error3"></p>
+                </div>
+                <label for="datalist">languages:</label><br>
+
+                <select id="languages">
+                    <option value="  "></option>
+                    <option value="Arabic">Arabic</option>
+                    <option value="English">English</option>
+                    <option value="Frensh">Frensh</option>
+                </select>
+
+                <div>
+                    <p id="Error4"></p>
+                </div>
+              <div id="rd"></div>  
+              <label for="Type">Type:</label><br>			
+		    <input type="radio" id="novel"name="book-category" value="novel" class="rd">
+            <label for="novel">Novel</label>
+            <input type="radio" id="historical" name="book-category" value="historical" class="rd">
+            <label for="Historical">Historical</label>
+            <input type="radio" id="fantasy"name="book-category" value="fantasy" class="rd">
+            <label for="fantasy">Fantasy</label>
+			
+           
+                <div>
+                    
+                    <p id="Error5"></p>
+                </div>
+                <label for="date">Publication date:</label><br>
+                <input type="date" id="date"><br>
+
+                <div>
+                    <p id="Error6"></p>
+                </div>
+                <label for="price">Price:</label><br>
+                <input type="number" id="price"><br>
+                
+                <div>
+                    <p id="Error7"></p>
+                </div>
+                
+              
+
+
+                <button id="btn" type="submit">submit</button>
+
+            </form>
+
+        </div>
+
+    </header>
+    <section>
+        <div class="tb" id="bookstor">
+            <table id="tableID">
+                <tr>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>Language</th>
+                    <th>Type</th>
+                    <th>Publication date</th>
+                    <th>Price</th>
+                    <th>Valid</th>
+                </tr>
+
+
+
+                <tbody id="tBodyID">
+
+                </tbody>
+            </table>
+
+
+
+        </div>
+    </section>
+
+    <script src="bkv2.js">
+    </script>
+</body>
+
+</html>

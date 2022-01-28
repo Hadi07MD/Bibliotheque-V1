@@ -1,0 +1,147 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;1,400&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    box-sizing: border-box;
+    height: 100vh;
+}
+nav{
+    background-color: rgb(10, 10, 10);
+    padding: 50px;
+}
+#Error1{
+    color: red;
+}
+#Error2{
+    color: red;
+}
+#Error3{
+    color: red;
+}
+#Error4{
+    color: red;
+}
+#Error5{
+    color: red;
+}
+#Error6{
+    color: red;
+}
+nav h1{
+    text-align: center;
+    color: #EA7A13;
+ 
+}
+#novel{
+    width: 25px;
+  
+}
+#historical{
+    width: 25px;
+}
+#fantasy{
+    width: 25px;
+}
+
+header{
+  background-color: black;
+}
+
+header h3{
+  color:rgb(253, 251, 251);
+  padding-left: 250px;
+ 
+}
+label{
+    color: aliceblue;
+}
+.forms form{
+    color:rgb(15, 15, 15);
+    align-items: center;
+    text-align: center;
+    line-height: 50px;
+    border: 0px;
+
+}
+input{
+    width: 500px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #ea7b13a1;
+}
+select{
+    width: 500px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #ea7b13a1;  
+}
+#btn{
+    color: white;
+    background-color: #EA7A13;
+    font-size: large;
+    width: 80px;
+    height: 60px;
+    margin-left: 25px;
+    margin-top: 25px;
+    margin-bottom: 65px;
+    align-items: center;
+}
+#sv{
+        width: 60px;
+        height: 50px;
+        margin-left: 25px;
+        margin-top: 25px;
+        margin-bottom: 30px;
+        align-items: center;
+}
+.tb{
+    padding-left: 350px;
+    padding-bottom: 50px;
+    margin-top: 50px;
+}
+thead{
+    
+    min-height: 128px;
+    width: auto;
+    height: 50px;
+    margin: 100px auto;
+    padding-right: 186px;
+}
+tr{
+    background-color: #EA7A13;
+    border-radius: solid red;
+  
+}
+th{
+    border: 1px solid #EA7A13;
+    text-align: center;
+    padding: 8px;
+}
+td{
+    border: 1px solid #EA7A13;
+    text-align: center;
+    padding: 8px;
+    width: 100px;
+    height: 50px;
+}
+#edit{
+    width: 45px;
+    height: 25px;
+    margin-left: 25px;
+    margin-top: 25px;
+    background-color: green;
+}
+#delet{
+    width: 45px;
+    height: 25px;
+    margin-left: 25px;
+    margin-top: 25px;
+    background-color: red;
+}
+
+
